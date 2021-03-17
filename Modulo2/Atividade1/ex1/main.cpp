@@ -1,6 +1,8 @@
 /* Bruno Paes
  * Prog II
- * Atividade 2
+ * 
+ * Modulo 2
+ * Atividade 1
  * Ex 1
  *
  * Crie a classe Triangulo, tendo como atributos sua base

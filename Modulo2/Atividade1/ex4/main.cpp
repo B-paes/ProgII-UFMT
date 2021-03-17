@@ -1,6 +1,8 @@
 /* Bruno Paes
  * Prog II
- * Atividade 2
+ *
+ * Modulo 2
+ * Atividade 1
  * Ex 4
  *
  * Crie a classe Partida, tendo como atributos o nome do time
