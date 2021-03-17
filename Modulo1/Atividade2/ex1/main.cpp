@@ -3,12 +3,12 @@
  * Atividade 2
  * Ex 1
  *
- * Crie a classe Triangulo, tendo como atributos sua base 
- * e altura. Por enquanto, mantenha todo o conteudo da classe 
- * como public e crie um metodo calculaArea() que, quando 
- * invocado, imprima na tela a area do triangulo que o 
- * invocou. No programa principal, instancie e inicialize 
- * com valores digitados do teclado dois objetos desta 
+ * Crie a classe Triangulo, tendo como atributos sua base
+ * e altura. Por enquanto, mantenha todo o conteudo da classe
+ * como public e crie um metodo calculaArea() que, quando
+ * invocado, imprima na tela a area do triangulo que o
+ * invocou. No programa principal, instancie e inicialize
+ * com valores digitados do teclado dois objetos desta
  * classe e invoque o metodo para ambos.
 
 
@@ -35,13 +35,22 @@ int main() {
 
     Triangulo t1, t2;
 
+    cout << "Triangulo 1:\n\nTamanho base: ";
+    cin >> t1.base;
+    cout << "altura: ";
+    cin >> t1.altura;
+
+    cout << "\nTriangulo 2:\n\nTamanho base: ";
+    cin >> t2.base;
+    cout << "altura: ";
+    cin >> t2.altura;
 
 
-    t1.base = 12;
-    t1.altura = 8;
-
+    cout << "\nArea triangulo 1:\n";
     t1.calculaArea();
-    
+    cout << "Area triangulo 2:\n";
+    t2.calculaArea();
+
 
     return 0;
 }
